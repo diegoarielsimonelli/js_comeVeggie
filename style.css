@@ -1,0 +1,22 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-img-top{
+    width: 26rem;
+    height: 14rem;
+}
+header{
+    margin-left: 37rem;
+    
+}
+.card{
+    margin: 3rem;
+    border: none;
+    
+}
+
+@media (max-width: 575.98px) { 
+   header{
+       margin-left: 25%;
+   }
+}

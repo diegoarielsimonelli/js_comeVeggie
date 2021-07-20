@@ -1,0 +1,44 @@
+{
+    "productos": [
+        {
+            "nombre": "Ensalada Fattoush",
+            "precio": 1000,
+            "descripcion": "La ensalada fattoush es una receta típica de Siria, Palestina y Turquía del mediterráneo oriente.",
+            "id":1
+            
+        },
+        {
+            "nombre": "Escalativa Catalana Vegana",
+            "precio": 900,
+            "descripcion": "La ensalada catalana es una ensalada típica de la gastronomía de Cataluña, es elaborada con lechuga, tomate, cebolla, aceitunas y a veces otras hortalizas y verduras.",
+            "id":2
+        },
+        {
+            "nombre": "Vegetales Asados",
+            "precio": 1500,
+            "descripcion": "Las verduras y hortalizas cocinadas a la plancha o en la parrilla, son una excelente guarnición, y más que eso, son la mejor opción para comer sano y ligero, disfrutando del sabor más auténtico de estos productos y sin ingerir demasiadas calorías.",
+            "id":3
+        },
+        {
+            "nombre": "Sushi Vegano",
+            "precio": 1200,
+            "descripcion": "La Shiitake es una receta con un sabor fuerte y sabroso, a menudo se seca para ser utilizado en la elaboración de caldos. Cuando se utilizan en el sushi, las shiitake suelen estar ligeramente aderezadas con sal o salsa de soja y ligeramente flameadas para mejorar su fragancia. La jugosa textura y el rico sabor de las shiitake hacen de este sushi vegano un bocado extremadamente satisfactorio.",
+            "id":4
+            
+        },
+        {
+            "nombre":"Hamburgueza de Lentejas",
+            "precio": 950,
+            "descripcion": "Hamburgueza de lentejas elaborada con cereales y vegetales frescos, con suaves condimentos, sin harinas, sin conservantes, sin colorantes y sin grasas.",
+            "id":5
+        },
+        {
+            "nombre": "Sandwich de Milanesa de Seitán",
+            "precio": 920,
+            "descripcion": "El seitán es un preparado a base de glúten de trigo, lo que le ha conferido el pseudónimo de 'carne vegetal'. Junto con el tofu y el tempeh, el seitán es un alimento rico en proteínas, a tener en cuenta en dietas vegetarianas o veganas para asegurar el aporte proteico.",
+            "id":6
+        }
+    ]
+}
+
+
