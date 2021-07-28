@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400;1,700&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 70.5%;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+}
+.background {
+    display: flex;
+    background-image: url(../img/platovegano.jpg);
+    background-repeat: no-repeat, repeat; 
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.background-index {
+    display: flex;
+    background-image: url(../img/platovegano.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8rem;
+    font-weight: 700;
+    height: 90vh;
+    transition: all 1s;
+}
+
+h1.pedido-procesado {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+}
+main {
+    text-align: center;
+}
+
+.background-index main img {
+    text-align: center;
+    margin: 3%;
+}
+
+.background-index h1 {    
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-family: 'Arial';
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+
+header {
+    width: 100%;
+    display: flex;    
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    height: auto;
+    background-color: wheat;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 1px #fe8c6285;  
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+
+header nav ul{
+    display:flex;
+    align-items: center; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+header nav ul li{
+    list-style-type: none;
+}
+
+
+header nav ul li a{
+    text-decoration: none;
+    color:#FE8C62;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 5px;
+    margin: 5px;
+    letter-spacing: 1px;    
+}
+
+#logo{
+    width: 10%;
+}
+
+.ingresar-tienda {    
+    display: flex;
+    justify-content: center;
+}
+
+a.ingresar {
+    background-color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px;
+    transition: all 0.5s;
+    text-align: center;
+}
+a.ingresar:hover {
+    background-color: #FE8C62;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.menu .button {
+    cursor: pointer;
+    }
+/*-----------------------------------------------------------*/
+
+
+
+div.card {
+    padding: 3rem;
+}
+
+.card img {
+    width: 100vh;
+    margin-top: 400rem;
+    box-shadow: 2px 2px black;
+    border-radius: 0.5rem;
+}
+
+h2.card-title {
+    height: 4.5rem;
+}
+
+
+
+.productos p{
+    font-size: 1.3rem;
+    color:white;
+    background-color: #FE8C62;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 7rem;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.productos .nombre-producto{
+    color:white;
+    margin-top: 0.5rem;
+}
+
+.productos .precio .valor{
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+.add-cart{
+    margin-bottom: 1em;    
+    margin-left: 1rem;
+}
+.add-cart i{
+    color: #FE8C62;
+    padding: 0.5rem;
+    transition: background-color 0.5s;
+}
+
+.preboton {
+    display: flex;
+    justify-content: center;
+}
+
+#caja1{
+    display: none;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 20%;
+}
+.buttons button{
+    background-color: #FE8C62;
+    display: grid;
+    justify-content: center;
+    width: 20%;
+}
+.btn {
+    background-color: #FE8C62;
+    color: white;
+}
+
+#contenedor_total{
+    margin-bottom: 5rem;
+}
+
+/*--------------------------CARRITO---------------------------------*/
+ .carro{
+    margin-bottom: 6em;
+}
+
+.carro h1{
+    float: left;
+    margin-left: 4em;
+    margin-bottom: 2em;
+} */
+ .carrito h2{
+    text-align: left;
+
+}
+
+.carrito p{
+    color:#FE8C62;
+    font-size: 1.2em;
+    display: flex;
+}
+
+.carrito input{
+    margin-bottom: 6em;
+
+}
+
+.carrito{
+    margin-left: 8em;
+}
+
+.total{
+    color: white;
+    font-size: 1em;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 4em;
+    text-decoration: none;
+}
+
+.total h2{
+    width: 100%;
+    background-color: #FE8C62;
+    border-radius: 0.5rem;
+}
+
+.total a{
+    width: 1000px;
+    color:white;
+    background-color: #FE8C62;
+    border-radius: 0.2rem;
+    padding: 5px;
+
+}
+
+.total a:hover{
+    background-color: black;
+}
+
+.img-carrito{
+    float: left;
+    width: 10%;
+    height: auto;
+    box-shadow: 2px 2px #FE8C62 ;
+    border-radius: 0.5rem;
+    margin-right: 1em;
+}
+
+#contenedor_total h2{
+    margin:  10px 0 10px 0;
+}
+
+#contenedor_total a {
+    margin-top:  10px;
+} 
+
+.borrar-todo{
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    padding: 5px;
+    font-size: 1em;
+    background-color: black;
+    color:white;
+    width: 100px;
+    margin-right: 60%;
+}
+.borrar-todo:hover{
+    background-color: grey;
+}
+
+.borrar-todo a{
+    color:white
+}
+
+
+/* FOOTER */
+
+footer{
+    color: black;
+    background-color: wheat;
+    padding: 2% 0 2% 0;
+    width: 100%;
+    
+}
+footer nav ul{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+footer nav ul li{
+    list-style-type: none;
+    color: black;
+}
+
+footer div ul li {
+    list-style-type: none;
+    padding-bottom: 1rem;
+}
+
+footer div ul li a {
+    font-size: 1.3rem;
+    list-style-type: none;
+    color: black;
+    word-spacing: 10px;
+}
+
+footer div ul li a:hover {
+    text-decoration: none;
+    color: wheat;
+}
+
+.btn-dark {
+    background-color: black;
+    border-color: transparent;
+    transition: all 0.8s;
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: #FE8C62;
+    color: black;
+    border-color: transparent;
+}
+
+.form-control {
+    width: 15rem;
+}
+
+.fot {
+    justify-content: space-evenly;
+}
+
+.redes-footer {
+    align-content: center;
+}
+
+
+
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+    .back-tienda {
+        height: auto;
+    }
+  }
