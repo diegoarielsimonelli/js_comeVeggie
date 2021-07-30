@@ -70,11 +70,11 @@ function cargarProd(cadena,tag){
 
 function agregarACarrito(index) {
   $(divCarrito).empty();
-  var producto = productos[index];
+  let producto = productos[index];
   if (carrito.length > 0) {
     var noExiste = true;
     
-    for (var i = 0; i < carrito.length; i++) {
+    for (let i = 0; i < carrito.length; i++) {
       if (producto.nombre === carrito[i].nombre) {
         carrito[i].cantidad++;
         noExiste = false;
@@ -103,7 +103,7 @@ function agregarACarrito(index) {
     carroVacio();
   
     if (carrito.length > 0) {
-      var sumador = 0;
+      let sumador = 0;
       carrito.forEach((producto) => {
         let divCar = document.createElement("div");
         divCar.className= "carrito"
